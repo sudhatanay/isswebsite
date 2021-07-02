@@ -1,0 +1,88 @@
+<html>
+
+<head>
+  <title> Skills</title>
+  <link rel="stylesheet" href="../css/form.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div id="NavigationBar">
+        <div id="navcontainer">
+            <img id="dp" src="https://media-exp3.licdn.com/dms/image/C4E03AQE7mC30fYvwzg/profile-displayphoto-shrink_800_800/0/1613657626260?e=1629936000&v=beta&t=RxIz1RqxzY1HaTk5WlAqT62MzAyEF1BtjzMnqgCuQJQ">
+            <a href="../index.html"><button class="navbar" id="home">Home</button></a>
+            <a href="skills.html"><button class="navbar" id="skills">Skills</button></a>
+            <a href="education.html"><button class="navbar" id="education">Education</button></a>
+            <a href="contact.html"><button class="navbar" id="contact">Contact</button></a>
+            <a href="form.html"><button class="navbar" id="form">Form</button></a>
+            <a href="https://www.iiit.ac.in/"><img id="logo" src="../img/IIITH.png"></a>
+            
+        </div>
+    </div>
+    <div id="spacer">
+    </div>
+  <section class="banner2">
+      <h2>(Click on the IIITH logo on the top right of webpage to go to IIITH website)</h2>
+    <h3>Add skills in the table:</h3><br>
+    <table id="skills" border="10px" cellspacing="0">
+      <thead>
+        <tr>
+          <th colspan="2" class="tabletitle">Name</th>
+          <th class="tabletitle">Skill</th>
+          <th class="tabletitle">Level</th>
+        </tr>
+        <tr>
+          <th class="tabletitle"> First</th>
+          <th class="tabletitle">Last</th>
+          <th colspan="2"></th>
+        </tr>
+      </thead>
+
+      <tbody id="InsertHere"></tbody>
+    </table>
+    <br><br>
+    <div class="formcontainer">
+      <form name="skillform" method="POST" onsubmit="return validateForm()">
+
+        <label for="inputName">First Name</label> <br>
+        <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name"><br><br>
+
+        <label for="inputName">Last Name</label> <br>
+        <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name"><br><br>
+
+        <label for="inputSkill">Skill</label> <br>
+        <input type="text" class="form-control" id="skillname" name="skillname" placeholder="Skill name"><br><br>
+
+        <label for="level">Level</label> <br>
+        <input type="text" name="proficiency" list="level_list" id="level" placeholder="Proficiency">
+        <datalist id="level_list">
+          <option value="Beginner">Beginner</option>
+          <option value="Intermediate">Intermediate</option>
+          <option value="Proficient">Proficient</option>
+        </datalist>
+        <br><br>
+        <button type="submit" id="newE" class="btn">Submit</button>
+    </div>
+    </form>
+    </div>
+  </section>
+
+
+<br><br><br><br>
+<h3>Sample table which uses colspan and rowspan:</h1>
+
+  <table border="10px">
+      <tr>
+          <td rowspan="2">This</td>
+          <td colspan="2">Is</td>
+      </tr>
+      <tr>
+          <td>A</td>
+          <td>Table</td>
+      </tr>
+  </table>
+  <br>
+  <br>
+  <script src="../js/form.js"></script>
+</body>
+</html>

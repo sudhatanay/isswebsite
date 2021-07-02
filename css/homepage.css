@@ -1,0 +1,103 @@
+div#NavigationBar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    height:10%;
+    border-width: 0;
+}
+
+div#navcontainer {
+    width:100%;
+    height:10%;
+}
+
+div#spacer {
+    width: 100%;
+    height:10%;
+}
+
+
+body#bg {
+    background-color: cadetblue;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald';
+}
+
+div#bioinfo {
+    padding-right: 8vw;
+    height: 480px;
+    background-color: whitesmoke;
+}
+
+img#pfp {
+    height: 480px;
+    width: 720px;
+    float:left;
+    padding-right: 100px;
+}
+
+h1 {
+    margin: 0;
+    text-align: left;
+}
+
+p#bio {
+    align-content: center;
+}
+
+button.navbar {
+    background-color: transparent;
+    text-align:center;
+    float:left;
+    font-size: 150%;
+    text-align: center;
+    position: relative;
+    bottom:50%;
+    justify-content: center;
+    color: white;
+    height: 1050%;
+    position: relative;
+    border-style: none;
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+img#logo {
+    height: 10vh;
+    width: 7vw;
+    float: right;
+}
+
+img#dp {
+    height: 9vh;
+    width: 9vh;
+    border-radius: 50%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+img#hobbiespic {
+    float: right;
+    width: 720px;
+    height:360px;
+}
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+div#hobbies {
+    padding-left: 5vw;
+    height: 360px;
+    background-color:cornflowerblue;
+}
+
+/*button:hover {
+    opacity:0.5
+}*/
