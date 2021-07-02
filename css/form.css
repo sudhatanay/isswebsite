@@ -74,3 +74,8 @@ table {
 th.tabletitle {
     background-color:paleturquoise;
 }
+
+img.imgsample {
+    height: 40%;
+    width: auto;
+}
